@@ -36,8 +36,9 @@
       "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/links?panelId=1&&theme=light&width=800&height=600&var-source={SOURCE}&var-target={TARGET}"
     }
   ],
+  "allCommunities": { "name": "Gesamtkarte", "url": "/" }
   "siteNames": [
-    { "site": "dus", "name": "Flingern" }
+    { "site": "dus", "name": "Flingern", "url": "/dus/" }
   ],
   "hwImg": [
     { "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",

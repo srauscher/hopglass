@@ -15,6 +15,10 @@ $buttondistance: 12pt;
 @import '_forcegraph';
 @import '_legend';
 
+#siteChanger{
+ padding: 0 12pt 1em;
+}
+
 .content {
   position: fixed;
   width: 100%;

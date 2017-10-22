@@ -9,6 +9,7 @@
     "tq": "Качество связи",
     "lastOnline": "в сети, последнее сообщение %{time} (%{date})",
     "lastOffline": "не в сети, последнее сообщение %{time} (%{date})",
+    "neverSeen": "нет данных",
     "activated": "активировано (%{branch})",
     "deactivated": "деактивировано",
     "status": "Статус",

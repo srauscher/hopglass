@@ -126,4 +126,8 @@ html {
       color: transparentize($color-black, .5);
     }
   }
+
+  a {
+    color: $color-primary;
+  }
 }

@@ -4,6 +4,11 @@
     font-family: $font-family-icons;
   }
 
+  .mesh-clients {
+    color: lighten($color-black, 80);
+    font-family: $font-family-icons;
+  }
+
   input,
   textarea {
     border: 1px solid $color-gray-light;

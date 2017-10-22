@@ -4,7 +4,7 @@ $color-black: #000 !default;
 $color-gray-light: darken($color-white, 30%) !default;
 $color-gray-dark: lighten($color-black, 20%) !default;
 
-$color-primary: #dc0067 !default;
+$color-primary: #e32d6d !default;
 
 $color-new: #459c18 !default;
 $color-online: #1566a9 !default;
@@ -13,7 +13,7 @@ $color-unseen: #d89100 !default;
 
 $color-map-background: #f8f4f0 !default;
 
-$font-family: Assistant, sans-serif !default;
+$font-family: 'Assistant', sans-serif !default;
 $font-family-icons: ionicons !default;
 $font-family-monospace: monospace !default;
 $font-size: 15px !default;

@@ -3,3 +3,6 @@ node_modules/
 build/
 .sass-cache/
 config.json
+nbproject/*
+css/*
+!css/.gitkeep

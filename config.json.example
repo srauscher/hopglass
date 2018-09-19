@@ -9,7 +9,14 @@
       "name": "OpenStreetMap.HOT"
     },
     {
-      "name": "Stamen.TonerLite"
+      "name": "Luftbilder NRW",
+      "url": "https://www.wms.nrw.de/geobasis/wms_nw_dop?",
+      "config": {
+        "maxZoom": 20,
+        "attribution": "<a href=\"http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/luftbilderzeugnisse/digitale_orthophotos/index.html\">DOP20</a>, Land NRW (2017), Datenlizenz Deutschland - Namensnennung - Version 2.0 (<a href=\"https://www.govdata.de/dl-de/by-2-0\">www.govdata.de/dl-de/by-2-0</a>)",
+        "format": "image/jpeg",
+        "layers": "nw_dop_rgb"
+      }
     }
   ],
   "nodeInfos": [

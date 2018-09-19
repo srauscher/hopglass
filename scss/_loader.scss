@@ -1,23 +1,39 @@
 .loader {
-  color: #000000;
-  font-size: 1.8em;
-  line-height: 2;
-  margin: 30vh auto;
+  margin: 0 auto;
   text-align: center;
+  position: relative;
+  top: 50vh;
+  transform:translateY(-50%);
 }
 
 .spinner {
-  animation: .6s spinner ease-in-out infinite alternate;
-  border-bottom: 2px solid #000000;
-  border-radius: 50%;
-  display: inline-block;
-  height: 64px;
-  margin-top: 10px;
-  width: 64px;
+  display:inline-block;
+  width:100px;
+  height:100px;
+  background:url(/img/spinner.png) center center;
+  background-size:contain;
+  transition-origin:50% 50%;
+  animation:spinner 3s infinite alternate ease-in-out
+}
+
+.spinner-center {
+  display:inline-block;
+  position:absolute;
+  margin-left:-100px;
+  width:100px;
+  height:100px;
+  background:url("/img/spinner-center.png") center center;
+  background-size:contain;
+  content:''
+}
+
+.loading-text {
+ position:relative;
+ margin-left:0.5em
 }
 
 @keyframes spinner {
-  to {
-    transform: rotate(360deg);
+  100%{
+    transform: rotate(3600deg);
   }
 }

@@ -1,11 +1,13 @@
-if (!String.prototype.includes) {
+/* jshint freeze: false */
+if (!String.prototype.includes)
+  /* jshint -W121 */
   String.prototype.includes = function (){
-    return String.prototype.indexOf.apply(this, arguments) !== -1;
-  };
-}
+    return String.prototype.indexOf.apply(this, arguments) !== -1
+  }
+
 
 require.config({
-  baseUrl: "lib",
+  baseUrl: "/lib",
   paths: {
     "leaflet": "../bower_components/leaflet/dist/leaflet",
     "leaflet.label": "../bower_components/Leaflet.label/dist/leaflet.label",

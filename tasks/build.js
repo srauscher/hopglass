@@ -13,6 +13,11 @@ module.exports = function(grunt) {
         cwd: "html/",
         dest: "build/"
       },
+      geojson: {
+        src: ["shape.geojson"],
+        expand: true,
+        dest: "build/"
+      },
       img: {
         src: ["img/*"],
         expand: true,

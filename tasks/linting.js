@@ -21,6 +21,7 @@ module.exports = function (grunt) {
           "no-new": 0,
           "no-shadow": 0,
           "no-use-before-define": [1, "nofunc"],
+          "no-extend-native": 0,
           "no-underscore-dangle": 0
         }
       },

@@ -8,48 +8,82 @@
   padding: 0 6pt 6pt !important;
 
   li {
-    border-radius: 20pt;
-    display: flex;
-    padding: 0 0 0 8pt;
-    margin: 3pt;
     align-items: center;
-    background: #009ee0;
-    color: rgba(255, 255, 255, 0.8);
+    background: transparent;
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    display: flex;
+    padding: 0 0 0 10px;
+    margin: 3px;
 
     label {
       cursor: pointer;
 
       strong {
-        color: rgba(255, 255, 255, 1);
+	font-weight: bold;
       }
     }
 
     &.not {
-      background: #dc0067;
+      label {
+        color: $color-primary;
+	text-decoration: line-through;
+        }
     }
 
     button {
       box-shadow: none;
-      margin: 2pt;
+      margin: 3px;
       padding: 0;
-      width: 18pt;
-      height: 18pt;
-      background: rgba(255, 255, 255, 0.0);
-      font-size: 12pt;
+      width: 24px;
+      height: 24px;
+      background: none;
+      font-size: 11px;
       vertical-align: middle;
-      color: rgba(255, 255, 255, 0.8);
+      color: #b3b3b3;
 
       &:hover {
-        box-shadow: none !important;
-        color: #dc0067;
-        background: rgba(255, 255, 255, 0.9);
-      }
-
-      &:active {
-        box-shadow: none;
+        color: $color-primary;
       }
     }
   }
+
+  .filter-node {
+    border: 0;
+    padding: 0 5px;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+
+    &::before {
+      font-size: 1.8em;
+    }
+
+    div{
+     width: 100%;
+    }
+
+    input {
+     background: transparent;
+     border: 0;
+     border-bottom: 1px solid $color-primary;
+     font-family: Roboto sans-serif;
+     font-size: 15px;
+     margin: 0 15px 0 3px;
+     outline: none;
+     padding: 0 2px;
+     width: 100%;
+
+       &:focus{
+         background: transparentize($color-primary, .95);
+       }
+    }
+
+    button {
+      display: none;
+    }
+  }
+/*
   input {
     background: transparent;
     border-bottom: 2pt solid rgba(255, 255, 255, 0.5);
@@ -64,6 +98,7 @@
       background: rgba(255, 255, 255, 0.15);
     }
   }
+*/
 
   strong.input {
     cursor: text;

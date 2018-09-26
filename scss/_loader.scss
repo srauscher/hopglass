@@ -29,7 +29,15 @@
 
 .loading-text {
  position:relative;
- margin-left:0.5em
+ margin-left:0.5em;
+ font-family: Roboto, sans-serif;
+}
+
+.pleasewait {
+ position: relative;
+ margin-left: 0.5em;
+ margin-top: 1em;
+ font-family: Roboto, sans-serif;
 }
 
 @keyframes spinner {

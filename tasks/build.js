@@ -46,6 +46,12 @@ module.exports = function(grunt) {
         dest: "build/",
         cwd: "bower_components/roboto-fontface"
       },
+      icons: {
+        src: [ "fonts/*"],
+        expand: true,
+        dest: "build/",
+        cwd: "assets/icons"
+      },
       ionicons: {
         src: [ "fonts/*",
                "css/ionicons.min.css"

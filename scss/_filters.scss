@@ -24,15 +24,6 @@
       }
     }
 
-    &.not {
-      border-color: #dc0067;
-      color: #dc0067;
-      label {
-        color: #dc0067;
-	text-decoration: line-through;
-        }
-    }
-
     button {
       box-shadow: none;
       margin: 3px;
@@ -46,6 +37,20 @@
 
       &:hover {
         color: $color-primary;
+      }
+    }
+
+    &.not {
+      border-color: #dc0067;
+      color: #dc0067;
+      button {
+        &:hover {
+          color: #dc0067;
+        }
+      }
+      label {
+        color: #dc0067;
+	text-decoration: line-through;
       }
     }
   }

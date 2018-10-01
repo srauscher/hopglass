@@ -52,14 +52,6 @@ module.exports = function(grunt) {
         dest: "build/",
         cwd: "assets/icons"
       },
-      ionicons: {
-        src: [ "fonts/*",
-               "css/ionicons.min.css"
-             ],
-        expand: true,
-        dest: "build/",
-        cwd: "bower_components/ionicons/"
-      },
       leafletImages: {
         src: [ "images/*" ],
         expand: true,

@@ -52,6 +52,12 @@ module.exports = function(grunt) {
         dest: "build/",
         cwd: "assets/icons"
       },
+      spinnerImages: {
+        src: [ "img/*"],
+        expand: true,
+        dest: "build",
+        cwd: "assets/spinner"
+      },
       leafletImages: {
         src: [ "images/*" ],
         expand: true,
